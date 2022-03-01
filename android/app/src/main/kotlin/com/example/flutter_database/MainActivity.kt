@@ -1,4 +1,4 @@
-package com.theandroidclassroom.flutter_database
+package co.sukritha.contacts
 
 import io.flutter.embedding.android.FlutterActivity
 
