@@ -1,16 +1,29 @@
-# flutter_database
+# Contacts App
 
-Learn How Firebase Works With Flutter. In this Tutorial We Are Gonna learn How We Can Save Data Into Firebase Realtime Database And Then Retrieve It In A ListView Using Firebase Animated List.  
+You are required to build a contact management
+application that has the following functionalities,
 
-We are going to create a contact saving app in this tutorial where we will be saving the name, mobile number, and our relation with the contact ie: friend, family, work or other into Firebase Realtime database and then we will retrieve all the saved contacts into a ListView, not a simple ListView but a special Flutter Widget made for Firebase Realtime Database called FirebaseAnimatedList. 
 
-Modules Covered In This Tutorial:
-1. Working With StateFullWidgets In Flutter
-2. Working With User Inputs (TextInputField) In Flutter.
-3. Designing Widgets In Flutter.
-4. Saving Data In A Form Map In Firebase Realtime Database.
-5. Working With FirebaseAnimatedList In Flutter.
-6. Fetching Data In Form Of Maps From Firebase Realtime Database
+1. Sign-up where the user will be allowed to enter his emailID and password along
+with a secret code. This data will be validated and sent to the backend where the
+data will be stored in a Database.
 
-Youtube Video Tutorial Link:
-https://www.youtube.com/watch?v=WI-I50vFDLk&t=1s
+
+2. Sign-in where the user will be allowed to enter his emailID and password. This
+data will be sent to the backend where it will be cross-checked with the data
+available in the database and a proper response is returned to the frontend.
+
+
+3. After sign-in the user will be presented with a form with which he can add his
+contacts. The form should have fields such as
+
+a. Contact Name
+
+b. Contact Number
+
+c. Contact Email
+
+d. And a save button to save the contact. On clicking the button the contact
+should be stored in the database.
+
+4. Below the contact form, the user should also see his stored contacts
